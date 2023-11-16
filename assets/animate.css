@@ -1,7 +1,7 @@
 body {
   display: grid;
   grid-template-columns: repeat(3, minmax(8rem, 1fr));
-  grid-template-rows: fit-content(50%);
+  grid-auto-rows: 200px;
   grid-gap: 1rem;
   padding: 5rem;
   background: #F5F7FA;
