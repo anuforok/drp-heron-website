@@ -1,15 +1,15 @@
 body {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
-  grid-gap: 1rem;
-  padding: 3rem;
+  grid-gap: 5rem;
+  padding: 5rem;
   background: #F5F7FA;
 }
 body .card {
   --background:#FFFFFF;
   --text:black;
   position: relative;
-  height: 18rem;
+  height: 12rem;
   box-shadow: 0 0 2rem -1rem rgba(0, 0, 0, 0.05);
 }
 body .card .multi-button {
