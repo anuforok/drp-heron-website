@@ -83,7 +83,7 @@ body .card .multi-button button:first-child:nth-last-child(4):nth-child(4), body
   left: 18.75%;
   top: 62.5%;
 }
-body .container .card {
+body .card .container {
   position: absolute;
   width: 100%;
   height: 100%;
