@@ -10,7 +10,7 @@ body .card {
   --text:black;
   position: relative;
   height: 18rem;
-  box-shadow: 0 0 2rem -1rem rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 1rem -1rem rgba(0, 0, 0, 0.05);
 }
 body .card .multi-button {
   z-index: 0;
