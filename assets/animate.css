@@ -1,6 +1,6 @@
 body {
   display: grid;
-  grid-template-columns: repeat(3, 150px);
+  grid-template-columns: repeat(3, minmax(8rem, 1fr));
   grid-gap: 1rem;
   padding: 5rem;
   background: #F5F7FA;
