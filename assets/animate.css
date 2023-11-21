@@ -1,6 +1,7 @@
 img{
   max-width: 20%;
   height: auto;
+  padding-left: 2rem;
 }
 
 .container {  display: grid;
