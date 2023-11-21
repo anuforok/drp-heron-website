@@ -39,12 +39,13 @@
     background:#5D9CEC;
     }
 
-  img{
+  .grid-item{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
     max-width: 20%;
     height: auto;
     padding-left: 1rem;
-    position: relative;
-    vertical-align: bottom;
   }
 
   html, body , .container {
