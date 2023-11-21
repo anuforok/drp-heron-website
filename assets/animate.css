@@ -120,11 +120,11 @@ body .card:hover .multi-button, body .card .multi-button:focus-within {
     grid-column: 2 / 4;
     grid-row: 2;
 }
-.d {
+.e {
     grid-column: 2;
     grid-row: 1;
 }
-.d {
+.f {
     grid-column: 3;
     grid-row: 1;
 }
