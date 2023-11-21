@@ -24,11 +24,7 @@
     background:#5D9CEC;
     }
   
-  .card4 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-area: card4;
+  .card4 { grid-area: card4;
     border-radius: 1rem;
     background:#5D9CEC;
     }
@@ -43,15 +39,14 @@
     background:#5D9CEC;
     }
 
-  .grid-item{
-    grid-column: span 1;
-    grid-row: span 1;
+  img{
+    max-width: 20%;
+    height: auto;
+    padding-left: 1rem;
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
-    padding-left: 1rem;
-    max-width: 20%;
-    height: auto;
+
   }
 
   html, body , .container {
