@@ -39,12 +39,12 @@
     background:#5D9CEC;
     }
 
-  .container .card4 img{
+  img{
     max-width: 20%;
     height: auto;
     padding-left: 1rem;
-    position: absolute;
-    bottom: 0px;
+    position: relative;
+    vertical-align: bottom;
   }
 
   html, body , .container {
