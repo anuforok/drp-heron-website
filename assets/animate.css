@@ -24,7 +24,11 @@
     background:#5D9CEC;
     }
   
-  .card4 { grid-area: card4;
+  .card4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-area: card4;
     border-radius: 1rem;
     background:#5D9CEC;
     }
@@ -40,11 +44,11 @@
     }
 
   .grid-item{
+    grid-column: span 1;
+    grid-row: span 1;
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
-    max-width: 20%;
-    height: auto;
     padding-left: 1rem;
   }
 
