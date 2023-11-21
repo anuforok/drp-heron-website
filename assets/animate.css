@@ -43,10 +43,7 @@
     max-width: 20%;
     height: auto;
     padding-left: 1rem;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-start;
-
+    padding-top: 2rem;
   }
 
   html, body , .container {
