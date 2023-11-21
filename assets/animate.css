@@ -117,7 +117,7 @@ body .card:hover .multi-button, body .card .multi-button:focus-within {
     grid-row: 2 ;
 }
 .d {
-    grid-column: 2 / 3;
+    grid-column: 3;
     grid-row: 2;
 }
 .e {
