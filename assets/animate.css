@@ -39,20 +39,14 @@
     background:#5D9CEC;
     }
 
-  .card4 img{
-      max-width: 20%;
-      height: auto;
-      padding-left: 1rem;
-      position: absolute;
-      bottom: 0px;
-    }
+  .container .card4 img{
+    max-width: 20%;
+    height: auto;
+    padding-left: 1rem;
+    position: absolute;
+    bottom: 0px;
+  }
 
-    .card4 img{
-  max-width: 20%;
-  height: auto;
-  padding-left: 1rem;
-}
-  
   html, body , .container {
     height: 40rem;
     margin: 0;
