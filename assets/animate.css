@@ -1,12 +1,12 @@
 .container {  display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1.2fr 0.8fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-gap: 0.7rem;
     padding: 5rem;
     grid-auto-flow: column dense;
     grid-template-areas:
-      "card1 card6 card6 card4"
-      "card5 card2 card3 card4";
+    "card1 card3 card3 card3 card3 card4"
+    "card2 card2 card2 card5 card5 card4";
   }
   
   .card1 { grid-area: card1;
