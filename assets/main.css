@@ -50,9 +50,11 @@
     margin: 0;
   }
 
-  footer{
-    clear: both;
-    margin-bottom: 0;
+  .footer-col-1{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
   }
 
   
