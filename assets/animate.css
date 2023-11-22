@@ -5,8 +5,8 @@
     padding: 5rem;
     grid-auto-flow: column dense;
     grid-template-areas:
-      "card1 card2 card3 card4"
-      "card5 card6 card6 card4";
+      "card1 card6 card6 card4"
+      "card5 card2 card3 card4";
   }
   
   .card1 { grid-area: card1;
