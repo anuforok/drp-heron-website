@@ -57,4 +57,39 @@
     z-index: 10;
   }
 
+  svg {
+    display: block;
+    width: 100%;
+    position: left;
+}
+
+svg path {
+    stroke-dashoffset: 0;
+    stroke-dasharray: 0;
+}
+
+/*.cls-1, .cls-2, .cls-3, .cls-4{
+    stroke-width:0px;
+    
+}*/
+
+.cls-2, .cls-3, .cls-4{
+    stroke-width:0px;
+    fill: transparent;
+}
+
+.cls-1{
   
+}
+
+.cls-2{
+    fill:#d6d6d6;
+}
+
+.cls-3{
+    fill:#fffefa;
+}
+
+.cls-4{
+    fill:#f4f4f4;
+}
