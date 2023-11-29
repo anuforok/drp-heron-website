@@ -284,10 +284,25 @@ html body .container {
 #bar-chart-1 .column tbody td {
   transform-origin: bottom;
   animation: revealing-bars 5s linear forwards;
+  border-radius: 3px;
 }
 #bar-chart-1 .column tr:nth-of-type(even) td {
   animation-delay: 300ms;
 }
+
+#bar-chart-1 .column tr {
+    transition-duration: 0.3s;
+  }
+
+#bar-chart-1 .column tr:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+#bar-chart-1 .column tr:hover th {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+  }
+
 @keyframes revealing-bars {
   0%  { transform: scaleY( 0 ); }
   30% { transform: scaleY( 1 ); }
