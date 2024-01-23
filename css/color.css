@@ -313,7 +313,7 @@ body {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
     font-size: 24px;
     font-weight:700;
-    color: #2C2D3F;
+    color: rgba(0, 125, 250, 0.9);
     position: relative;
     left: 47%;
 }
