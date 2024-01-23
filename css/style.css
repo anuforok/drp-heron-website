@@ -30,7 +30,9 @@
 /* 1. Defaults & Reset of specific styles across browsers */
 /*------------------------------------------------------------------------------------------*/
 
-*, *:before, *:after {
+*, 
+*:before, 
+*:after {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -616,6 +618,92 @@ hr {
     width: 51%;
 }
 
+.col-39 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%
+}
+
+/*=============================
+	Start Feautes CSS
+===============================*/
+.single-features{
+	text-align:center;
+	position:relative;
+	padding:10px 20px;
+}
+.single-features::before {
+	position: absolute;
+	content: "";
+	right: -72px;
+	top: 60px;
+	width: 118px;
+	border-bottom: 3px dotted rgba(0, 125, 250, 0.8);
+}
+.single-features.last::before{
+	display:none;
+}
+.single-features .signle-icon{
+	position:relative;
+}
+.single-features .signle-icon i{
+	font-size:40px;
+    font-weight:600;
+    font-family: Arial, Helvetica;
+	color:rgba(0, 125, 250, 0.8);
+	position:absolute;
+	left:50%;
+	margin-left:-50px;
+	top:0;
+	height:100px;
+	width:100px;
+	line-height:100px;
+	text-align:center;
+	border:1px solid rgba(0, 125, 250, 0.8);
+	border-radius:100%;
+	-webkit-transition:all 0.4s ease;
+	-moz-transition:all 0.4s ease;
+	transition:all 0.4s ease;
+}
+.single-features:hover .signle-icon i{
+	background:rgba(0, 125, 250, 0.8);
+	color:#fff;
+	border-color:transparent;
+}
+.single-features h3{
+	padding-top: 128px;
+	color:#2C2D3F;
+	font-weight:600;
+	font-size:21px;
+}
+.single-features p {
+	margin-top: 20px;
+}
+
+.row-feature-3 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.row-feature-2 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    position: relative;
+    left: 18%;
+}
+
+/*=============================
+	End Feautes CSS
+===============================*/
+
 /* --------- 2.1 Header --------- */
 
 #header {
@@ -1120,6 +1208,27 @@ h6 {
     margin-top: 30px;
 }
 
+#banner-alt {
+    background-size: cover;
+}
+
+#banner-alt-content.row {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#banner-alt h1 {
+    padding-top: 5%;
+}
+
+#banner-alt .section-heading:before {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 5px;
+    margin-top: 30px;
+}
+
 
 
 /*------------------------------------------------------------------------------------------*/
@@ -1464,6 +1573,12 @@ blockquote {
     .featherlight iframe {
         /* styling */
         border: none;
+    }
+
+    .col-lg-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%
     }
 }
 
@@ -2419,6 +2534,67 @@ blockquote {
     #header aside {
         display: none;
     }
+
+    .single-features .signle-icon i {
+        font-size: 42px;
+        left: 50%;
+        margin-left: -40px;
+        height:80px;
+        width: 80px;
+        line-height: 80px;
+    }
+
+    .single-features::before {
+        display:none;
+    }
+
+    .single-features {
+        text-align: center;
+        position: relative;
+        padding:0px;
+        margin: 15px 0;
+    }
+    
+    .single-features h3 {
+        padding-top: 105px;
+        font-size: 20px;
+    }
+
+    .single-features .signle-icon i {
+        font-size: 42px;
+        left: 50%;
+        margin-left: -40px;
+        height:80px;
+        width: 80px;
+        line-height: 80px;
+    }
+
+    .single-features::before {
+        display:none;
+    }
+
+    .single-features {
+        text-align: center;
+        position: relative;
+        padding:0px;
+        margin: 15px 0;
+    }
+
+    .single-features h3 {
+        padding-top: 105px;
+        font-size: 20px;
+    }
+
+    .single-features::before {
+        display:none;
+    }
+
+    .single-features {
+        text-align: center;
+        position: relative;
+        padding: 10px 155px;
+        margin: 10px 0;
+    }   
 }
 
 /* Landscape mobile & down

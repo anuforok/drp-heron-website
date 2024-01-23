@@ -41,6 +41,10 @@ a:hover, #header.nav-solid nav a:hover {
     background: #80caff;
 }
 
+#banner-alt .section-heading:before, .testimonial.classic footer:before {
+    background: #80caff;
+}
+
 .pricing-block-content:hover {
     border-color:#80caff;
 }
@@ -129,6 +133,28 @@ a:hover, #header.nav-solid nav a:hover {
     background-size:cover;
 }
 
+#banner-alt {
+    background: url("../images/background-alt.svg") no-repeat center top;
+    background-size:cover;
+}
+
+#middle-content {
+    background-image: linear-gradient(
+    155deg,
+    hsl(0deg 0% 100%) 0%,
+    hsl(0deg 0% 100%) 10%,
+    hsl(0deg 0% 100%) 20%,
+    hsl(0deg 0% 100%) 30%,
+    hsl(0deg 0% 100%) 40%,
+    hsl(0deg 0% 100%) 50%,
+    hsl(199deg 63% 98%) 60%,
+    hsl(199deg 71% 96%) 70%,
+    hsl(199deg 76% 95%) 80%,
+    hsl(198deg 81% 93%) 90%,
+    hsl(198deg 83% 91%) 100%
+    );
+    background-size:cover;
+}
 
 /*------------------------------------------------------------------------------------------*/
 /* 5. Typography */
@@ -178,6 +204,21 @@ body {
     color:#111;
 }
 
+#banner-alt h1 {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size:62px;
+    line-height:60px;
+    font-weight:800;
+    color:#111;
+}
+
+#banner-alt h2 {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size:18px;
+    font-weight:300;
+    color:#111;
+}
+
 
 /* Section Title and Subtitle */
 
@@ -193,6 +234,15 @@ body {
     font-size: 16px;
     font-weight:300;
     color:#111;
+}
+
+.banner-alt-subtitle h3{
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 24px;
+    font-weight:700;
+    color: #2C2D3F;
+    position: relative;
+    left: 47%;
 }
 
 /* Testimonial */
@@ -310,6 +360,37 @@ h6 {
     color: #971b2f;
     border-color:#971b2f;
 }
+
+/* Button Text */
+
+#banner-alt .button {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size:16px;
+    background:rgba(0, 125, 250, 0.8);
+	color:#fff;
+    position: relative;
+    left: 43%;
+}
+
+
+/* Button Color */
+
+#banner-alt .button {
+    border-color:transparent;
+    border-radius: 3px;
+    ;
+}
+
+
+/* Button Hover Color */
+
+#banner-alt .button:hover {
+    border:1px solid rgba(0, 125, 250, 0.8);
+    color:rgba(0, 125, 250, 0.8);
+    background: rgba(255, 255, 255, 0.8);
+}
+
+
 
 /* ----------Cards---------- */
 .card1 h2 {
