@@ -236,7 +236,80 @@ body {
     color:#111;
 }
 
+.section-alt-subtitle  {
+    transition: all 0.2s ease-in-out 0s;
+    text-align: center;
+    position: relative;
+    /* background: linear-gradient(to right, #f06844 0%, #ee4c54 25%, #d45e95 50%, #9c6ca6 75%, #6583c1 100%);
+    background: -webkit-linear-gradient(left, #f06844 0%, #ee4c54 25%, #d45e95 50%, #9c6ca6 75%, #6583c1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
+
+.section-alt-subtitle  p {
+    font-size: 18px;
+    line-height: 1.125;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    letter-spacing: .004em;
+    position: relative;
+}
+
+.section-alt-subtitle-text {
+    /* Fallback bg color. */
+    background-color: #111;
+    
+    /* Create the gradient. */
+    background-image: -webkit-gradient(linear, left top, right top, from(#BE649C), to(#6D80BE));
+    background-image: -webkit-linear-gradient(left, #BE649C 0%, #6D80BE 100%);
+    background-image: linear-gradient(90deg, #BE649C 0%, #6D80BE 100%);
+
+    
+    /* bg size and repeat properties. */
+    background-size: 100%;
+    background-repeat: repeat;
+  
+    /* gradient as a text color rather than element background. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    
+    /* Animate the text when loading the element. */
+    animation: section-alt-subtitle-animation-rev 0.75s ease forwards;
+  
+  }
+  
+  .section-alt-subtitle-text:hover{
+      animation: section-alt-subtitle-animation 0.5s ease-in forwards;
+  }
+  
+  /* bg and make it smaller. */
+  @keyframes section-alt-subtitle-animation-rev {
+      0% {
+          background-size: 650%;
+      }
+      40% {
+          background-size: 650%;
+      }
+      100% {
+          background-size: 100%;
+      }
+  }
+  
+  /* bg and make it larger. */
+  @keyframes section-alt-subtitle-animation {
+      0% {
+          background-size: 100%;
+      }
+      80% {
+          background-size: 650%;
+      }
+      100% {
+          background-size: 650%;
+      }
+  }
+
 .banner-alt-subtitle h3{
+    display: block;
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
     font-size: 24px;
     font-weight:700;
@@ -244,6 +317,12 @@ body {
     position: relative;
     left: 47%;
 }
+
+.banner-alt-subtitle img{
+    position: relative;
+    left: 47%;
+}
+
 
 /* Testimonial */
 
@@ -369,7 +448,7 @@ h6 {
     background:rgba(0, 125, 250, 0.8);
 	color:#fff;
     position: relative;
-    left: 43%;
+    left: 41%;
 }
 
 
